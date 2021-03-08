@@ -1,36 +1,3 @@
-# Write the dice game as above.
-# Upgrade the dice game: now both I and my opponent roll two six-sided dice each.
-# Upgrade the game once more: now we play several rounds for each game. The first player to win two rounds wins the game. (Still with two dice each.)
-
-# player 1 start
-# roll one dice (6)
-# display 1st value
-# roll second dice (6)
-# display 2nd value
-# total
-
-# player 2 start
-# roll one dice (6)
-# display 1st value
-# roll second dice (6)
-# display 2nd value
-# total
-
-# compare total
-
-# if player 1 > player 2
-#     point1 += 1
-# elsif
-#     point2 += 1
-# else
-#     false
-    
-# loop until either point1 = 2 or point2 = 2
-# if point1 = 2
-#     puts player1 wins
-# else
-#     puts player2 wins
-
 player_1 = 0
 player_2 = 0
 
@@ -73,9 +40,3 @@ if player_1 > player_2
 else
     puts "Player 2 wins!"
 end
-
-
-
-    
-
-
