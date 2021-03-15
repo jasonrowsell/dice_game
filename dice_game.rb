@@ -4,8 +4,8 @@ player_2 = 0
 until player_1 == 2 || player_2 == 2 do
     puts "Player 1: type 'roll'"
     
-    while input = gets.chomp.downcase
-        case input
+    while user_input = gets.chomp.downcase
+        case user_input
         when 'roll'
             roll_1 = rand(1..6)
             puts roll_1
@@ -17,8 +17,8 @@ until player_1 == 2 || player_2 == 2 do
         
     puts "Player 2: type 'roll'"
     
-    while input = gets.chomp.downcase
-        case input
+    while user_input = gets.chomp.downcase
+        case user_input
         when 'roll'
             roll_2 = rand(1..6)
             puts roll_2
