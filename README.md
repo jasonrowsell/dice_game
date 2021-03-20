@@ -1,4 +1,4 @@
-# dice_game
+# Dice Game #
 
 Makers Academy exercise for precourse, Mastery curriculum, ch. 4 on Flow of Control
 
