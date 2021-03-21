@@ -44,9 +44,3 @@ if player_1 > player_2
 else
     puts "Player 2 wins!"
 end
-
-
-
-    
-
-
